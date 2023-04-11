@@ -1,4 +1,5 @@
 animals = ["Affe","Gans","Giraffe","Nashorn"]
+            # 0     1       2         3
 print(animals)
 
 # Austauschen eines Wertes (initialisieren)
@@ -31,17 +32,23 @@ print(animals2)
 animals2.pop()
 print(animals2)
 
-# Spezifisches Element entfernen
+# Spezifisches Element entfernen (wird nicht entgültig gelöscht)
 animals2.pop(1)
 print(animals2)
 
-removedElement = animals2.pop(1) # man kann somit mit dem Element noch weiter arbeiten
+removedElement = animals2.pop(1) # Über das zuweisen der Funktion zu einer neuen Variable, kann man mit dem Element noch weiter arbeiten
 print(removedElement)
 
-del animals2 [1] # das Element wird entgültig gelöscht
+del animals2 [1] # das Element wird entgültig gelöscht mit dem del statement
 print(animals2)
 
 # Wenn man nicht weiß wo im Index ein Wert liegt, so kann man diesen wie folgt entfernen
 
 animals2.remove("Lurch")
 print(animals2)
+
+# Übersicht der funktionen / statements 
+  # pop z.B. animals.pop(2)
+  # remove z. B. animals.remove("Name")
+  # del z. B. del animals[0]
+  # instert z. B. animals.insert(2, "Name")
