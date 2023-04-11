@@ -4,5 +4,3 @@
 first_name = "Andy"
 first_name = "Peter"
 print(first_name)
-
-
