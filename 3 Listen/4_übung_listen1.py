@@ -1,3 +1,34 @@
+foods = []
+
+foods.append("Salat")
+foods.append("Donut")
+foods.append("Brötchen")
+
+print(foods)
+
+foods.pop()
+
+print(foods)
+
+foods.insert(1, "Pasta")
+
+print(foods)
+
+print(foods [-1])
+
+foods.sort()
+print(foods)
+
+foods.sort(reverse=True)
+print(foods)
+
+print("=================")
+
+
+
+
+
+
 # 1. erstelle eine Leere List
 # (später kommen da deine Lieblinggericht rein)
 lieblingsGerichte = []

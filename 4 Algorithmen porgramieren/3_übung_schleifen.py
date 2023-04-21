@@ -1,6 +1,16 @@
 klasse_a = ["Jan", "Nick", "Maria", "Peter"]
 klasse_b = ["Klara", "Jonas", "Hans", "Vladimir"]
 
+for student in klasse_a:
+  print(student)
+
+for student in klasse_b:
+  print(student)
+
+
+
+
+print("____________________________")
 for schüler in klasse_a:
   print(schüler)
 

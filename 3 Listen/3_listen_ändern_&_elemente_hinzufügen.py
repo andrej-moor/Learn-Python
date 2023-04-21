@@ -3,15 +3,14 @@ animals = ["Affe","Gans","Giraffe","Nashorn"]
 print(animals)
 
 # Austauschen eines Wertes (initialisieren)
-
 animals [1] = "Elefant"
 print(animals)
 
 # Man kann ein Element auch entfernen und einen Platzhalter einfügen mit ""
 animals = ["Affe","","Giraffe","Nashorn"]
 print(animals)
-# Eine leere Liste ist auch möglich
 
+# Eine leere Liste ist auch möglich
 animals2 = []
 print(animals2)
 
@@ -36,7 +35,7 @@ print(animals2)
 animals2.pop(1)
 print(animals2)
 
-removedElement = animals2.pop(1) # Über das zuweisen der Funktion zu einer neuen Variable, kann man mit dem Element noch weiter arbeiten
+removedElement = animals2.pop(1) # Über das zuweisen der Funktion zu einer neuen Variable, kann man mit dem entfernten Element weiterarbeiten
 print(removedElement)
 
 del animals2 [1] # das Element wird entgültig gelöscht mit dem del statement

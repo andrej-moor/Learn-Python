@@ -13,10 +13,6 @@ monthly_revenues = [
 1800,
 ]
 
-print(monthly_revenues)
-
-print("==========")
-
 for revenue in monthly_revenues:
   print(revenue)
 
@@ -24,7 +20,7 @@ print("==========")
 
 # Was sind die leistungsstärksten Monate (>=2000)?
 total = sum(monthly_revenues)
-total_best_months = 0
+total_best_months = 0 # initialisieren der Variable um sie weiter unten nutzen zu können
 total_count_best_months = 0
 
 for revenue in monthly_revenues:

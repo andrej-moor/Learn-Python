@@ -22,7 +22,7 @@ print(smallest_digit)
 highest_digit = max(digits)
 print(highest_digit)
 
-# Summer
+# Summe
 
 result = sum(digits)
 print(result)

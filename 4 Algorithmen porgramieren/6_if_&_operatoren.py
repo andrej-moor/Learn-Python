@@ -1,5 +1,6 @@
-age = 18
-if age == 18: # Ein Operator in diesem Fall kan true oder false sein
+age = 18 # = 
+Zuweisung
+if age == 18: # == Ein Operator in diesem Fall kan true oder false sein
   
 # age == 18 ist in dem Fall die Bedingung & == ein Operator um die Bedingung abzufragen
 # Das = ist eine Zuweisung

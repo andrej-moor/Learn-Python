@@ -1,3 +1,10 @@
+x = 2.3
+y = 4.9
+
+result = x * y
+
+print(f"Das Ergebnis ist: {result}")
+
 #Aufgabe: 2 float Variablen multiplizieren und Ergebnis ausgeben: "Ergebnis ist: 50"
 x = 100.0
 y = 0.5

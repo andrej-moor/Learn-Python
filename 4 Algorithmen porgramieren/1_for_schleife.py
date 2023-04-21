@@ -13,7 +13,7 @@ print(cars[3])
 print("=================")
 
 # Schleife
-
+# variable  liste
 for car in cars: 
-  print(car) # Der print()-Befehl muss eingerükt werden um der Schleife zugehörig zu sein (-> Python arbeitet mit Einrückungen (engl. intendation)
+  print(car)
 

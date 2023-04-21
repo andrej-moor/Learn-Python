@@ -8,7 +8,7 @@ print(animals)
 animals.sort(reverse=True) # umgekehrte Rehenfolge / Boolscher Wert: umgekehrt=ja
 print(animals)
 
-# Wenn man die sortierte Liste in einer neuen Variable ausgeben will, also nicht sertören will, kann man dies mit der sorted Funkiton tun (temporäre Sortierung): 
+# Wenn man die sortierte Liste in einer neuen Variable ausgeben will, also nicht zertören will, kann man dies mit der sorted Funkiton tun (temporäre Sortierung): 
 animals_sorted = sorted(animals)
 print(f"Sortiert: {animals_sorted}")
 print(f"Unsortiert: {animals}")
